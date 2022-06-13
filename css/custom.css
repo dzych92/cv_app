@@ -1,0 +1,131 @@
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 62.7%;
+    border: 1px solid var(--black);
+    position: relative;
+}
+.col-left {
+    width: 63%;
+}
+.col-right {
+    width: 36%;
+}
+.col-left, 
+.col-right {
+    display: inline-block;
+    position: relative;
+    float: left;
+    z-index: 1;
+}
+.bg-left {
+    background: var(--white);
+    width: 62%;
+    left: 0;
+}
+.bg-right {
+    background: var(--grey);
+    width: 37%;
+    right: 0;
+}
+.bg-left, 
+.bg-right {
+    position: absolute;
+    display: inline-block;
+    float: left;
+    min-height: 1000px;
+    top: 0px;
+    border: 1px solid var(--black);
+}
+
+.hero-info {
+    position: relative;
+    min-height: 380px;
+    padding-bottom: 20px;
+    z-index: 1;
+    width: 100%;
+}
+.hero-img, .txt {
+    display: inline-block;
+    position: relative;
+}
+.hero-img {
+    width: 290px;
+    height: auto;
+    float: left;
+    border-radius: 163px;
+    border: 18px solid var(--grey);
+    top: 41px;
+    left: 59px;
+    z-index: 1;
+}
+.txt {
+    width: 58%;
+    min-height: 152px;
+    left: 8px;
+    top: 121px;
+    float: left;
+    background: var(--orange);
+}
+.hero-workplace,
+.hero-name {
+    position: relative;
+}
+.hero-workplace {
+    left: 105px;
+    top: 45px;
+}
+.hero-name {
+    left: 102px;
+    top: 35px;
+}
+.h3_bg {
+display: block;
+width: 80%;
+height: 47px;
+background: var(--orange);
+margin-top: 4px;
+}
+.h3_bg .h3{
+    position: relative;
+    text-align: right;
+    right: 20px;
+    top: 14px;
+}
+.ib {
+    display: inline-block;
+}
+.section {
+    padding: 35px 35px 0px 35px;
+    margin-left: 20px;
+}
+.orange_box {
+    width: 25px;
+    height: 25px;
+    background: var(--orange);
+    position: relative;
+    top: -15px;
+}
+.section .col-1 {
+    margin-left: 15px;
+    width: 25%;
+    position: relative;
+    top: -15px;
+}
+.section .col-2 {
+    width: 55%;
+    margin-left: 37px;
+}
+.col-right {
+    top: -100px;
+}
+.col-right .col-1
+.col-right .col-2
+.col-right .col-3 {
+    padding: 45px;
+}
+.col-right .h2 {
+    text-align: center;
+    padding: 12px 0;
+    border: 3px solid var(--orange);
+}

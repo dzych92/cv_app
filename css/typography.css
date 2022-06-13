@@ -1,0 +1,59 @@
+p {
+	line-height: 150%;
+	margin: 0 0 10px;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	/* font-family: "open_sansbold"; */
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+h1, .h1 {
+	font-size: 47px;
+	/* font-family: "open_sanbold"; */
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	word-spacing: 6px;
+	margin: 0 0 15px;
+}
+
+h2, .h2 {
+	font-size: 18px;
+	/* font-family: "open_sanbold"; */
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 0 12px;
+}
+
+h3, .h3 {
+	font-size: 29px;
+	/* font-family: "open_sanssemibold"; */
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 0 12px;
+	word-spacing: 4px;
+}
+
+
+h4, h5, h6, 
+.h4, .h5, .h6  {
+	margin: 5px 0 5px;
+}
+
+.h3_bg .h3 {
+	/* font-family: "open_sansbold"; */
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	letter-spacing: 5px;
+	font-size: 16px;
+}
+.col-right h1, .col-right h2, .col-right h3, .col-right h4, .col-right h5,
+.col-right .h1, .col-right .h2, .col-right .h3, .col-right .h4, .col-right .h5,.h6,
+.col-right p {
+	color: var(--white);
+}

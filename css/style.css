@@ -1,0 +1,11 @@
+/*Resetowanie arkuszy stylów*/
+@import url(reset.css);
+/* Zmienne */
+@import url(variables.css);
+/* Czcionki */
+/* @import url(fonts.css); */
+/* Typografia */
+@import url(typography.css);
+@import url(icon.css);
+/*Arkusze stylów autora CV*/
+@import url(custom.css);
